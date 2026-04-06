@@ -1,20 +1,24 @@
-# Worktrees
-.worktrees/
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Nuxt
-.nuxt/
-.output/
-dist/
-.nitro/
+# Node dependencies
+node_modules
 
-# Node
-node_modules/
-npm-debug.log*
+# Logs
+logs
+*.log
 
-# Environment
-.env
-.env.local
-
-# OS
+# Misc
 .DS_Store
-Thumbs.db
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
