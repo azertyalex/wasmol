@@ -1,0 +1,20 @@
+# Worktrees
+.worktrees/
+
+# Nuxt
+.nuxt/
+.output/
+dist/
+.nitro/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
