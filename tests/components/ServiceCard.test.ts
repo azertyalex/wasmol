@@ -8,17 +8,15 @@ describe('ServiceCard', () => {
       props: {
         title: 'Exterior Wash',
         description: 'Full exterior hand wash.',
-        icon: '🚗',
       },
     })
     expect(wrapper.text()).toContain('Exterior Wash')
     expect(wrapper.text()).toContain('Full exterior hand wash.')
-    expect(wrapper.text()).toContain('🚗')
   })
 
   it('has hover border class', () => {
     const wrapper = mount(ServiceCard, {
-      props: { title: 'X', description: 'Y', icon: '🔧' },
+      props: { title: 'X', description: 'Y' },
     })
     expect(wrapper.html()).toContain('hover:border-accent')
   })

@@ -9,13 +9,13 @@
         rel="noopener noreferrer"
         class="flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200"
       >
-        <span>💬</span> WhatsApp
+        WhatsApp
       </a>
       <a
         href="mailto:YOUR_EMAIL"
         class="flex items-center gap-2 bg-card border border-white/20 hover:border-accent text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200"
       >
-        <span>✉️</span> Email
+        Email
       </a>
     </div>
   </section>

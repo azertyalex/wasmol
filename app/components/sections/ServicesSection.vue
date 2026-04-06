@@ -7,7 +7,6 @@
         :key="service.title"
         :title="service.title"
         :description="service.description"
-        :icon="service.icon"
       />
     </div>
   </section>
@@ -20,17 +19,14 @@ const services = [
   {
     title: 'Exterior Wash',
     description: 'Full hand wash of the exterior — bodywork, windows, and door sills — leaving your car squeaky clean.',
-    icon: '🚗',
   },
   {
     title: 'Interior Clean',
     description: 'Vacuum, wipe-down, and detail of seats, dashboard, and all interior surfaces.',
-    icon: '🪣',
   },
   {
     title: 'Tire & Rim Treatment',
     description: 'Tires scrubbed and dressed, rims cleaned to a shine.',
-    icon: '⚙️',
   },
 ]
 </script>
