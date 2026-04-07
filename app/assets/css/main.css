@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface: #0f0f0f;
-  --color-card: #1a1a1a;
-  --color-accent: #3B82F6;
-  --font-family-sans: 'Inter', ui-sans-serif, system-ui;
+  --color-surface: #0c0c0a;
+  --color-card: #141412;
+  --color-accent: #F59E0B;
+  --font-family-sans: 'DM Sans', ui-sans-serif, system-ui;
+  --font-family-display: 'Barlow Condensed', ui-sans-serif, system-ui;
 }
 
 html {
@@ -15,4 +16,16 @@ body {
   background-color: var(--color-surface);
   color: white;
   font-family: var(--font-family-sans);
+}
+
+/* Entrance animations */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+[data-animate].in-view {
+  opacity: 1;
+  transform: translateY(0);
 }
