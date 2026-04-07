@@ -1,10 +1,16 @@
 <template>
-  <section id="hero" class="min-h-screen flex flex-col justify-center px-6 relative overflow-hidden pb-20 sm:pb-0">
+  <section
+    id="hero"
+    class="min-h-screen flex flex-col justify-center px-6 relative overflow-hidden pb-20 sm:pb-0"
+  >
     <div class="relative z-10 max-w-5xl mx-auto w-full" data-animate>
       <!-- Eyebrow -->
       <div class="flex items-center gap-3 mb-10">
         <div class="w-8 h-px bg-accent"></div>
-        <span class="text-xs font-medium tracking-[0.25em] uppercase text-accent">Car Detailing</span>
+        <span
+          class="text-xs font-medium tracking-[0.25em] uppercase text-accent"
+          >Car Cleaning</span
+        >
       </div>
 
       <!-- Brand name -->
@@ -22,8 +28,13 @@
       </div>
 
       <!-- CTA -->
-      <a href="#contact" class="inline-flex items-center gap-3 text-white font-medium text-lg group">
-        <span class="border-b border-white/20 group-hover:border-accent transition-colors pb-0.5">
+      <a
+        href="#contact"
+        class="inline-flex items-center gap-3 text-white font-medium text-lg group"
+      >
+        <span
+          class="border-b border-white/20 group-hover:border-accent transition-colors pb-0.5"
+        >
           Get in touch
         </span>
         <svg
@@ -41,7 +52,9 @@
     </div>
 
     <!-- Scroll indicator -->
-    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-25 hidden sm:flex">
+    <div
+      class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-25 hidden sm:flex"
+    >
       <span class="text-xs tracking-widest uppercase text-white">Scroll</span>
       <div class="w-px h-8 bg-white/30"></div>
     </div>

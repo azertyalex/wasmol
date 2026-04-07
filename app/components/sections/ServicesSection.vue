@@ -14,7 +14,7 @@
         :style="{ transitionDelay: `${i * 0.12}s` }"
       >
         <span
-          class="font-display font-black leading-none text-white/5 group-hover:text-accent/20 transition-colors select-none shrink-0"
+          class="font-display font-black leading-none text-white/20 group-hover:text-accent/40 transition-colors select-none shrink-0"
           style="font-size: clamp(52px, 8vw, 96px)"
         >
           {{ String(i + 1).padStart(2, '0') }}
@@ -25,6 +25,20 @@
           </h3>
           <p class="text-white/50 leading-relaxed">{{ service.description }}</p>
         </div>
+      </div>
+    </div>
+
+    <!-- Coming soon -->
+    <div class="mt-10 pt-10 border-t border-white/5" data-animate>
+      <p class="text-xs font-medium tracking-[0.2em] uppercase text-white/25 mb-5">Coming soon</p>
+      <div class="flex flex-wrap gap-3">
+        <span
+          v-for="name in comingSoon"
+          :key="name"
+          class="px-4 py-2 rounded-full border border-white/10 text-white/30 text-sm"
+        >
+          {{ name }}
+        </span>
       </div>
     </div>
   </section>
@@ -46,4 +60,6 @@ const services = [
     description: 'Tires scrubbed and dressed, rims cleaned to a shine.',
   },
 ]
+
+const comingSoon = ['Coating', 'Waxing', 'Paint Correction']
 </script>

@@ -7,12 +7,11 @@
 
     <div class="max-w-2xl" data-animate>
       <p class="text-white/70 text-xl leading-relaxed mb-6">
-        Wasmol is a personal car cleaning and detailing side project — a hobby I do for friends and
-        family.
+        Wasmol is a personal car cleaning side project — a hobby I do for
+        friends and family.
       </p>
       <p class="text-white/35 text-base leading-relaxed">
-        Every job is done properly, with care. Not a franchise, not a team — just one person who
-        takes pride in a clean finish.
+        Every job is done properly, with care. I take pride in a clean finish.
       </p>
     </div>
   </section>
