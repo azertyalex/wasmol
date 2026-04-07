@@ -11,24 +11,24 @@
           <!-- Large -->
           <div style="display:flex;align-items:center;gap:14px">
             <MoleMark :size="52" />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:42px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Wasm<span style="color:#F59E0B">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:42px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Was<span style="color:#F59E0B">mol</span></span>
           </div>
           <!-- Medium -->
           <div style="display:flex;align-items:center;gap:10px">
             <MoleMark :size="36" />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Wasm<span style="color:#F59E0B">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Was<span style="color:#F59E0B">mol</span></span>
           </div>
           <!-- Small (nav size) -->
           <div style="display:flex;align-items:center;gap:7px">
             <MoleMark :size="22" />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:18px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Wasm<span style="color:#F59E0B">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:18px;letter-spacing:-.02em;text-transform:uppercase;line-height:1">Was<span style="color:#F59E0B">mol</span></span>
           </div>
         </div>
         <!-- On light -->
         <div style="background:#f5f5f3;border-radius:16px;padding:40px;display:flex;flex-direction:column;gap:32px;align-items:flex-start;margin-top:8px">
           <div style="display:flex;align-items:center;gap:14px">
             <MoleMark :size="52" dark />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:42px;letter-spacing:-.02em;text-transform:uppercase;line-height:1;color:#0c0c0a">Wasm<span style="color:#D97706">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:42px;letter-spacing:-.02em;text-transform:uppercase;line-height:1;color:#0c0c0a">Was<span style="color:#D97706">mol</span></span>
           </div>
         </div>
       </div>
@@ -40,12 +40,12 @@
           <!-- Large -->
           <div style="display:flex;flex-direction:column;align-items:center;gap:10px">
             <MoleMark :size="64" />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:32px;letter-spacing:.08em;text-transform:uppercase;line-height:1">Wasm<span style="color:#F59E0B">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:32px;letter-spacing:.08em;text-transform:uppercase;line-height:1">Was<span style="color:#F59E0B">mol</span></span>
           </div>
           <!-- Medium -->
           <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
             <MoleMark :size="40" />
-            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;letter-spacing:.08em;text-transform:uppercase;line-height:1">Wasm<span style="color:#F59E0B">ol</span></span>
+            <span style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;letter-spacing:.08em;text-transform:uppercase;line-height:1">Was<span style="color:#F59E0B">mol</span></span>
           </div>
         </div>
       </div>

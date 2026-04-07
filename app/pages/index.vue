@@ -4,7 +4,7 @@
     <nav class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur border-b border-white/5">
       <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
         <a href="#hero" class="font-display font-black text-xl uppercase tracking-tight text-white">
-          Wasm<span class="text-accent">ol</span>
+          Was<span class="text-accent">mol</span>
         </a>
         <div class="flex items-center gap-6 text-sm">
           <a href="#services" :class="activeSection === 'services' ? 'text-white' : 'text-white/50'" class="hover:text-white transition-colors hidden sm:block">Services</a>

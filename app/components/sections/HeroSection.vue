@@ -18,7 +18,7 @@
         class="font-display font-black text-white uppercase leading-none"
         style="font-size: clamp(72px, 16vw, 200px); letter-spacing: -0.02em"
       >
-        Wasm<span class="text-accent">ol</span>
+        Was<span class="text-accent">mol</span>
       </h1>
 
       <!-- Tagline row -->
