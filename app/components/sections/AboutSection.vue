@@ -5,5 +5,10 @@
       Wasmol is a personal car cleaning and detailing side project — a hobby I
       do for friends and family.
     </p>
+    <p class="text-white/50 text-base leading-relaxed">
+      The name? Simple: <span class="text-white font-medium">was</span> is Dutch for "wash",
+      and <span class="text-white font-medium">Mol</span> is my last name.
+      Wasmol — wash by Mol.
+    </p>
   </section>
 </template>
