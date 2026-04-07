@@ -16,6 +16,7 @@ body {
   background-color: var(--color-surface);
   color: white;
   font-family: var(--font-family-sans);
+  touch-action: pan-y;
 }
 
 /* Entrance animations */

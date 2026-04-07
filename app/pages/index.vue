@@ -1,7 +1,7 @@
 <template>
   <div class="bg-surface min-h-screen">
     <!-- Sticky nav -->
-    <nav class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur border-b border-white/5">
+    <nav class="fixed top-0 inset-x-0 z-50 bg-surface sm:bg-surface/80 sm:backdrop-blur border-b border-white/5 will-change-transform">
       <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
         <a href="#hero" class="font-display font-black text-xl uppercase tracking-tight text-white">
           Was<span class="text-accent">mol</span>
@@ -33,7 +33,7 @@
     </footer>
 
     <!-- Mobile sticky contact bar -->
-    <div class="fixed bottom-0 inset-x-0 z-40 sm:hidden p-4 bg-surface/95 backdrop-blur border-t border-white/5">
+    <div class="fixed bottom-0 inset-x-0 z-40 sm:hidden p-4 bg-surface border-t border-white/5 will-change-transform">
       <a href="#contact" class="block w-full text-center bg-accent hover:bg-amber-400 text-white font-semibold py-3 rounded-full transition-colors">
         Get in touch
       </a>
